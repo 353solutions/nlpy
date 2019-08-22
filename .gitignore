@@ -1,0 +1,7 @@
+*.pyc
+.hypothesis
+.pytest_cache
+__pycache__
+dist
+nlp.egg-info
+venv

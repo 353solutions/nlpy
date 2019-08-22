@@ -1,0 +1,7 @@
+include LICENSE.txt
+include Makefile
+include README.md
+include requirements.txt requirements-dev.txt
+recursive-include tests *.py
+
+prune tests/.pytest_cache
