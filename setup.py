@@ -36,7 +36,7 @@ tests_require = load_requirements('requirements-dev.txt')
 setup(
     name='nlp',
     version=find_version(),
-    packages=['nlp'],
+    packages=['nlpy'],
     entry_points={
         'console_scripts': [
             'nlpd = nlp.httpd:main',
