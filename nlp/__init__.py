@@ -27,6 +27,11 @@ def stem(word):
 
 
 def tokenize(text):
+    """Return list of tokens found in text
+
+    >>> tokenize('Mary had a little lamb')
+    ['mary', 'little', 'lamb']
+    """
     tokens = []
     for tok in re.findall('[a-zA-Z]+', text):
         tok = tok.lower()
