@@ -8,8 +8,8 @@ This project provides NLP functions for Python
 
 import nlp
 
-tokens = nlp.tokenize('Marry had a little lamb')
-print(tokens)  # ['marry', 'little', 'lamb']
+tokens = nlp.tokenize('Mary had a little lamb')
+print(tokens)  # ['mary', 'little', 'lamb']
 ```
 
 ## Development
